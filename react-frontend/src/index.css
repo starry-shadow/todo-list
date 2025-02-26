@@ -28,12 +28,14 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+
 .card{
   padding: none;
   background-color: #2C2C2C;
   color: white;
   justify-content: flex-start;
 }
+
 .title{
   color: black;
   font-weight: 800;
@@ -45,6 +47,7 @@ h1 {
   text-align: center;
   flex-direction: column;
 }
+
 .search-bar{
   border-radius: 28px;
   background-color:white;
@@ -53,6 +56,7 @@ h1 {
   padding: 10px;
   margin-bottom: 10px;
 }
+
 .search-input{
   font-size: 16px;
   color: black;
@@ -62,6 +66,7 @@ h1 {
   background-color: transparent;
   width: 300px;
 }
+
 .filter-button{
   background-color: #2C2C2C;
   border-radius: 10px;
@@ -73,24 +78,39 @@ h1 {
   box-shadow: none;
   border: none;
 }
+
 .addButton{
   background-color: #2C2C2C;
   display:flex;
-  color:#ffffff ;
+  color:#c15cff ;
   border: none;
   padding:5px;
   right:20px;
-  font-size: 25px;
-  position:center;
+  font-size: 45px;
+  position:absolute;
   margin:auto 0;
+  border-radius: 50%;
+  height: 50px;
+  width:50px;
+  align-items: center;
+  justify-content: center;
+  right:15px;
+  bottom:10px;
 
 }
+
+.addButton:hover{
+  background-color: #848484;
+  cursor: pointer;
+}
+
 .todo-list{
   padding:5px;
   background-color: pink;
   border-radius: 10px;
   font-size: 50px;
 }
+
 .container{
   display: flex;
   margin-bottom: 20px;
