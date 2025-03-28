@@ -15,8 +15,14 @@ function Form(){
             <div class="modal">
                 <div class="overlay">
                     <div class="modal-content">
-                        <h2>Hello Modal</h2>
-                        <p>placeholder text is super duper fun to make and write.</p>
+                        <h3>Title</h3>
+                        <div class="modal-search-bar">
+                            <input type="text" class="search-input"></input>
+                        </div>
+                        <h3>Description</h3>
+                        <div class="modal-search-bar">
+                            <input type="text" class="search-input"></input>
+                        </div>
                         <button class="close-button" onClick={toggleModal}>close</button>
                     </div>
                 </div>
