@@ -1,0 +1,157 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: black;
+  background-color: #D9D9D9;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  padding-left: 10%;
+  font-family: "Liter", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.card{
+  padding: none;
+  background-color: #2C2C2C;
+  color: white;
+  justify-content: flex-start;
+}
+
+.title{
+  color: black;
+  font-weight: 800;
+  font-size: 100px;
+  padding: none;
+  margin:0;
+  /*align-items: center;*/
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.search-bar{
+  border-radius: 28px;
+  background-color:white;
+  display: flex;
+  width:max-content;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.search-input{
+  font-size: 16px;
+  color: black;
+  margin-left: 14px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 300px;
+}
+
+.filter-button{
+  background-color: #2C2C2C;
+  border-radius: 10px;
+  outline: none;
+  color: white;
+  font-family: "Liter",serif;
+  font-size: 25px;
+  display: flex;
+  box-shadow: none;
+  border: none;
+}
+
+.addButton{
+  background-color: #2C2C2C;
+  display:flex;
+  color:#c15cff ;
+  border: none;
+  padding:5px;
+  right:20px;
+  font-size: 45px;
+  position:absolute;
+  margin:auto 0;
+  border-radius: 50%;
+  height: 50px;
+  width:50px;
+  align-items: center;
+  justify-content: center;
+  right:15px;
+  bottom:10px;
+
+}
+
+.addButton:hover{
+  background-color: #848484;
+  cursor: pointer;
+}
+
+.todo-list{
+  padding:5px;
+  background-color: pink;
+  border-radius: 10px;
+  font-size: 50px;
+}
+
+.container{
+  display: flex;
+  margin-bottom: 20px;
+}
+.modal, .overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+.modal-content{
+  position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 0.5;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+}
+.close-button{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+}
+.overlay{
+  background: rgba(49,49,49,0.8);
+}
+.modal-search-bar{
+  border-radius: 10px;
+  background-color:transparent;
+  display: flex;
+  height:50px;
+  width:max-content;
+  padding: 5px;
+  margin-bottom: 10px;
+  border:solid, black, 5px;
+}
