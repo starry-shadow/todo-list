@@ -24,6 +24,7 @@ function Form(){
                             <input type="text" class="search-input"></input>
                         </div>
                         <button class="close-button" onClick={toggleModal}>close</button>
+                        <button class="add-button">Add</button>
                     </div>
                 </div>
             </div>

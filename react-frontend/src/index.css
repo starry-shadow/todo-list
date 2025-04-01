@@ -117,7 +117,7 @@ h1 {
 }
 .modal, .overlay {
   width: 100vw;
-  height: 100vh;
+  height: 105vh;
   top: 0;
   left: 0;
   right: 0;
@@ -142,12 +142,17 @@ h1 {
   right: 10px;
   padding: 5px 7px;
 }
+.add-button{
+  position: absolute;
+  right:175px;
+  padding: 5px 7px;
+}
 .overlay{
   background: rgba(49,49,49,0.8);
 }
 .modal-search-bar{
   border-radius: 10px;
-  background-color:transparent;
+  background-color:#a5a5a5;
   display: flex;
   height:50px;
   width:max-content;
